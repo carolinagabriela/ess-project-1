@@ -94,7 +94,7 @@ O usuário administrador possui todas as permissões do usuário comum, além de
    npm start
    ```
 ### Configuração do Banco de Dados
-Certifique-se de que o arquivo ```.env``` da pasta ```/server``` está funcionando. Caso não, crie um arquivo ```.env``` com:
+Para compilar corretamente, crie um arquivo ```.env``` na pasta ```/server``` com:
 ```
 JWT_SECRET = "sua_chave_secreta_super_segura_aqui"
 NODE_ENV = "development"
